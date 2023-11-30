@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "moondial",
+	"version": "${version}",
+	"name": "Moondial",
+	"description": "Clock that tells you the moon phase",
+	"authors": [
+		"unilock"
+	],
+	"contact": {
+		"sources": "https://github.com/unilock/Moondial"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/moondial/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cc.unilock.moondial.Moondial"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20.2",
+		"fabric-api": "*",
+		"polymer-core": "*"
+	}
+}

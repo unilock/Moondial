@@ -1,0 +1,14 @@
+{
+  "item.moondial.moondial": "Moondial",
+
+  "moondial.phase": "Current moon phase: %s",
+
+  "moondial.phase.0": "Full Moon",
+  "moondial.phase.1": "Waning Gibbus",
+  "moondial.phase.2": "Last Quarter",
+  "moondial.phase.3": "Waning Crescent",
+  "moondial.phase.4": "New Moon",
+  "moondial.phase.5": "Waxing Crescent",
+  "moondial.phase.6": "First Quarter",
+  "moondial.phase.7": "Waxing Gibbus"
+}
