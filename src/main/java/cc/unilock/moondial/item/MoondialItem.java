@@ -1,5 +1,6 @@
 package cc.unilock.moondial.item;
 
+import cc.unilock.moondial.polymer.PolymerTextures;
 import eu.pb4.polymer.core.api.item.PolymerItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -25,11 +26,11 @@ public class MoondialItem extends Item implements PolymerItem {
 
 	@Override
 	public Item getPolymerItem(ItemStack itemStack, @Nullable ServerPlayerEntity player) {
-		return Items.CLOCK;
+		return Items.AMETHYST_SHARD;
 	}
 
 	@Override
 	public int getPolymerCustomModelData(ItemStack itemStack, @Nullable ServerPlayerEntity player) {
-		return PolymerItem.super.getPolymerCustomModelData(itemStack, player);
+		return PolymerTextures.MODELS.get(this).value();
 	}
 }

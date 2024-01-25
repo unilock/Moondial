@@ -1,5 +1,6 @@
 package cc.unilock.moondial;
 
+import cc.unilock.moondial.polymer.PolymerTextures;
 import cc.unilock.moondial.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
@@ -10,6 +11,7 @@ public class Moondial implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		PolymerTextures.init(MOD_ID);
 		ModItems.init();
 	}
 

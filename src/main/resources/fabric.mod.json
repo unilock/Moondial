@@ -11,7 +11,7 @@
 		"sources": "https://github.com/unilock/Moondial"
 	},
 	"license": "LGPL-3.0-only",
-	"icon": "assets/moondial/icon.png",
+	"icon": "assets/moondial/textures/item/moondial.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
